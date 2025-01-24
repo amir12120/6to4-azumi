@@ -1,6 +1,14 @@
 نصب
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/amir12120/6to4-azumi/main/managed2.sh)"
 
-python3 <(curl -Ls https://raw.githubusercontent.com/amir12120/HAPROXY-AZUMI/main/haproxy.py --ipv4)
+apt install python3 -y && sudo apt install python3-pip &&  pip install colorama && pip install netifaces && apt install curl -y && python3 <(curl -Ls https://raw.githubusercontent.com/amir12120/6to4-azumi/main/ipip.py --ipv4)
+
+پیش نیازها
+sudo apt-get install python-pip -y  &&  apt-get install python3 -y && alias python=python3 && python -m pip install colorama && python -m pip install netifaces
+
+
+
+
 نام پروژه : 6TO4 | GRE | GRE6 | IP6IP6 | SIT
 
 <div align="right">
