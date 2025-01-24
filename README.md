@@ -1,4 +1,6 @@
+نصب
 
+python3 <(curl -Ls https://raw.githubusercontent.com/amir12120/HAPROXY-AZUMI/main/haproxy.py --ipv4)
 نام پروژه : 6TO4 | GRE | GRE6 | IP6IP6 | SIT
 
 <div align="right">
